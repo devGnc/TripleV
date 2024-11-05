@@ -5,7 +5,7 @@ class NotesWindow:
     def __init__(self, root):
         self.root = tk.Toplevel(root)
         self.root.title("Outil de Prise de Notes")
-        self.root.geometry("1280x1080")
+        self.root.geometry("1280x720")
 
         title_label = tk.Label(self.root, text="Outil de Prise de Notes", font=("Arial", 36, "bold"))
         title_label.pack(pady=40)

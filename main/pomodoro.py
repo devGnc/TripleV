@@ -5,7 +5,7 @@ class PomodoroWindow:
     def __init__(self, root):
         self.root = tk.Toplevel(root)  # Crée une nouvelle fenêtre
         self.root.title("Pomodoro Timer")
-        self.root.geometry("1280x1080")
+        self.root.geometry("1280x720")
 
         # Titre de la fenêtre
         title_label = tk.Label(self.root, text="Pomodoro Timer", font=("Arial", 36, "bold"))
